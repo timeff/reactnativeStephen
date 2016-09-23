@@ -17,7 +17,7 @@ class AlbumList extends Component{
     }
 
     render(){
-        return (<ScrollView style={{flex:1}}>
+        return (<ScrollView>
             {this.renderAlbums()}
         </ScrollView>)
     }
